@@ -1,0 +1,47 @@
+.word{
+    font-family: 'Lora', serif;
+
+}
+
+.menu-btn{
+    display: block !important;
+    margin-top: -30px;
+}
+
+.body-1{
+    display:flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+.img-width{
+    width: 500px;
+    height: 440px;
+    margin-top: -25px;
+
+}
+.display-3{
+    font-family: 'Lora', serif;
+    font-weight: 900 !important;
+}
+.color-0{
+    color: rgb(86, 124, 228);
+}
+.btn-1{
+    border: 1px solid white;
+    color: white;
+    padding: 12px 21px;
+    text-decoration: none
+}
+
+.menu-window{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: black;
+    background-color: white;
+    clip-path:circle(0px at 100% -40%);
+    padding: 20%;
+}
